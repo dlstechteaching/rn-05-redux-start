@@ -1,5 +1,5 @@
-import {  Todo } from "../actions";
 import { Action, Actiontypes } from "../actions/types";
+import { Todo } from "../types/todos";
 
 export const todosReducer = (
     state: Todo[] = [], 
